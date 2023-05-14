@@ -1,0 +1,215 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.centerform {
+    background: rgba(192,192,192, .3) ;
+    position: relative;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px; /* Уголки */
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.username, .password{
+    font-size: 16pt;
+    width: 400px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid rgb(125, 219, 125);
+    color:#fff;
+}
+.username::placeholder, .password::placeholder{
+    color:#fff;
+}
+.c-button-login {
+    font-size:16pt;
+    background: rgb(235, 167, 40);
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    width: 200px;
+    border-radius: 5px; /* Уголки */
+}
+.c-button-login:hover {
+    font-size:16pt;
+    background: rgb(197, 129, 2);
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+}
+.c-button-registr {
+    font-size:16pt;
+    background: rgb(91, 201, 87);
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    width: 200px;
+    border-radius: 5px; /* Уголки */
+}
+.c-button-registr:hover {
+    font-size:16pt;
+    background: rgb(10, 189, 10);
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+}
+.c-button-vhod {
+    font-size:16pt;
+    background: rgb(72, 88, 228);
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    width: auto;
+    border-radius: 5px; /* Уголки */
+}
+.c-button-vhod:hover {
+    font-size:16pt;
+    background: rgb(46, 61, 197);
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;
+}
+.bodyautorize {
+    background-image: url('../images/fonautorize.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bodyclass {
+    background-image: url('../images/fon.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.tableadminka {
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.tableadminka th {
+    background: #efefef;
+    font-weight: bold;
+}
+.addbutton {
+    text-transform: uppercase;
+    border: 0;
+    columns: #efefef;
+    font-size: 14pt;
+    width: 350px;
+    background: #cacaca;
+}
+textarea {
+    width: 100%;
+    resize: vertical;
+    box-shadow:4px 4px 10px;
+    height: 35%;
+    font-size: 14pt;
+}
+.addpublic {
+    width: 50%;
+    font-size: 16pt;
+}
+.namepublic {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.discription {
+    -ms-text-overflow: ellipsis;
+text-overflow: ellipsis;
+overflow: hidden;
+-ms-line-clamp: 2;
+-webkit-line-clamp: 2;
+line-clamp: 2;
+display: -webkit-box;
+display: box;
+word-wrap: break-word;
+-webkit-box-orient: vertical;
+box-orient: vertical;
+font-size: 15px;
+line-height: 19px;
+}
+
+.conteiner {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+
+    border-collapse: collapse;
+    vertical-align: top;
+    min-height: 35%;
+    margin: 10px;
+}
+.img {
+    height: 150px;
+}
+.image {
+    text-align: center;
+}
+.navigation {
+    background: rgb(37, 33, 33);
+    line-height: 50px;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.logologin {
+    width: 250px;
+}
+.dalee {
+    color: blue;
+}
+.list
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+ 
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+    .list__item
+    {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: calc(100%/5);
+    }
+    .list__item__inner {
+    width: 100%;
+    color: #474d51;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0.125rem 0.313rem rgb(0 0 0 / 20%);
+    box-shadow: 0 0.125rem 0.313rem rgb(0 0 0 / 20%);
+    text-align: center;
+    }
+.list__item img {
+    width: 100%;
+    display: block;
+}
+.pay {
+    color:rgb(46, 61, 197);
+}
+.price {
+    font-weight: bold;
+}
